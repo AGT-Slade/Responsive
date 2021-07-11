@@ -122,10 +122,22 @@ h4 {
   align-items: center;
 }
 
+.nav__header .nav__logo {
+  text-align:center;
+  display:table;
+}
+
+.nav__header .nav__logo img {
+  max-height: 80px;
+  margin-right: 10px;
+}
+
 .nav__header .nav__logo h1 {
   font-size: 3rem;
   font-weight: 700;
   color: var(--white);
+  display:table-cell;
+  vertical-align:middle;
 }
 
 .fix__nav .nav__logo h1 {
